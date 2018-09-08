@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#a4b1bb"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_point"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="."
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_comma"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text=","
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_line"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_undo"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:padding="0dp"
+            android:src="@drawable/icon_keyboard_delete" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/type_writing_selector"
+            android:elevation="2dp"
+            android:lines="1"
+            android:padding="4dp"
+            android:text="下一项"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
